@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0 !important;
+}
+
+/* Header ----------------------------------------------------------------------- */
+header {
+    background-color: #62a4f5;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 44px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.buttons_enregistrer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.buttons_enregistrer button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 1.5em;
+}
+
+.buttons_enregistrer button:hover {
+    background-color: #3e8e41;
+}
+
+.buttons_enregistrer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Tables ----------------------------------------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #a9b1f5;
+}
+
+.btn-consulter {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+
+.btn-modifier {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-suprimer {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-retour{
+    background-color: #0011fe;
+    color: white;
+}
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Form ------------------------------------------------------------------------- */
+.formulaire {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Adjust width as needed */
+}
+
+.formulaire h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.info_patient{
+    padding-left: 30px;
+}
+
+.info_vaccin{
+    padding-left: 30px;
+}
